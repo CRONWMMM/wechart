@@ -1,7 +1,8 @@
 /**
  * client
+ * @param CONFIG {object} 微信公众号通用信息
  */
-;(function () {
+;(function (CONFIG) {
 
 	var USERAGENT = window.navigator.userAgent.toLowerCase(),
 		ISWECHART = /micromessenger/g.test(USERAGENT),
